@@ -1,0 +1,219 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@media (max-width: 4000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+		width: 800px;
+		margin: -350px auto 0px auto;
+	}
+	.profile_pic {
+		margin-top: -100px;
+	}
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+		width: 700px;
+		margin: -350px auto 0px auto;
+	}
+	.profile_pic {
+		margin-top: -100px;
+	}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+		width: 500px;
+		margin: -350px auto 0px auto;
+	}
+	.profile_pic {
+		margin-top: -100px;
+	}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+		width: 300px;
+		margin: -350px auto 0px auto;
+	}
+	.profile_pic {
+		margin-top: -100px;
+	}
+}
+
+@media (max-width: 0px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+		width: 200px;
+		margin: -350px auto 0px auto;
+	}
+	.profile_pic {
+		margin-top: -100px;
+	}
+	body {
+		width: 100%
+	}
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(80, 80, 80);
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin: 0px auto 80px auto ;
+}
+
+h1 {
+	color: #0d545e;
+	font-family: 'Roboto', sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	line-height: 1;
+}
+
+hr {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #eee;
+	margin: 30px auto;
+}
+
+line {
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+
+a {
+	color: #41aea9;
+}
+
+a:hover {
+	opacity: .5;
+	transition: .1;
+}
+
+
+shade {
+	width: 100%;
+	margin: 30px auto 15px auto;
+	height: 3px;
+	opacity: 0.15;
+	display: block;
+}
+
+legenda {
+	color: gray;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}
+
+.container {
+	width: 500px;
+	text-align: center;
+}
+
+
+.inside {
+	width: 122%;
+	margin: 20px 0px 20px -45px;
+	height: 10px;
+	opacity: 0.1;
+	display: inline-block;
+}
+
+.card {
+	margin: 0px auto 10px auto;
+	padding: 45px;
+	background-color: rgba(255, 255, 255, 0.959);
+	border-radius: 20px;
+	box-shadow: 5px 10px 6px 1px  #4060681a;
+}
+
+.round_pic {
+	border-radius: 100%;
+	width: 100%;
+}
+
+.profile_pic {
+	width: 45%;
+	border: 5px solid white;
+}
+
+.list-inline  {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.button {
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px  #74747450;
+	font-size: small;
+}
+
+.list-inline > li {
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 40px
+}
+
+.azul_4 {
+	background-color: #213e3b;
+}
+
+.azul_3 {
+	background-color: #41aea9;
+}
+
+.azul_2 {
+	background-color: #a6f6f1;
+}
+
+.azul_1{
+	background-color: #e8ffff;
+}
+
+.gradient_black {
+	background-image: linear-gradient( #000000, #00000009);
+}
+
+.gradient_4 {
+	background-image: linear-gradient( #213e3b, #213e3b18);
+}
+
+.gradient_3 {
+	background-image: linear-gradient(to right, #41aea9, #41aea810);
+}
+
+.gradient_3_l {
+	background-image: linear-gradient(to left, #41aea9, #41aea810);
+}
+
+.gradient_2 {
+	background-image: linear-gradient( #a6f6f1, #a6f6f10e);
+}
+
+.gradient_1 {
+	background-image: linear-gradient( #e8ffff, #e8ffff09);
+}
+
+.above_button {
+	margin-bottom: 35px;
+}
