@@ -53,6 +53,7 @@
 	}
 	body {
 		width: 100%;
+		margin: 0px auto;
 	}
 	strip {
 		width: 100%;
@@ -71,10 +72,10 @@
 	body {
 		padding: 0px;
 		margin: 0px;
-		width: 360px;
+		width: 500px;
+		margin: 0px auto;
 	}
 	strip {
-		margin: 0px auto;
 		width: 500px;
 	}
 }
